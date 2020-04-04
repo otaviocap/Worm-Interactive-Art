@@ -1,6 +1,8 @@
 # Worm Interactive Art
 A Interactive art made in JS with P5.js
 
+**Only works with in a desktop enviroment, in mobile results may vary**
+
 ***
 ## Explanation
 A simple art program made in JavaScript with the help of P5.js. The idea is simple, with the left mouse click you can spawn little balls that I called worms that follow your mouse cursor and leave a trail that paint a canvas.
