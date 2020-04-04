@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Worms</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="https://cdn.jsdelivr.net/npm/p5@1.0.0/lib/p5.js"></script>
+    <script src="index.js"></script>
+</head>
+<body>
+    <h1 style="font-size: 0px; visibility: hidden;">Interactive Worm Art</h1>
+    <div style="text-align: center;">
+        <button class="ui" onclick="pause()">Pause (z)</button>
+        <button class="ui" onclick="clearCanvas()">Clear (c)</button>
+        <button class="ui" onclick="deleteWorms()">Delete Worms (d)</button>
+        <button class="ui" onclick="toggleReverse()">
+            <input  type="checkbox" id="reverseCheckbox">Reverse (x)</input>
+        </button>
+        <button class="ui" onclick="downloadArt()">Download Art</button>
+        <div class="color-pallete">
+            <span >Color pallete: </span>
+            <select id="pallete">
+                <option value="summer">Summer</option>
+                <option value="winter">Winter</option>
+                <option value="autumn">Autumn</option>
+                <option value="spring">Spring</option>
+                <option value="bew">Black & White</option>
+                <option value="ber">Black & Red</option>
+                <option value="random">Random</option>
+            </select>
+        </div>
+    </div>
+</body>
+</html>
