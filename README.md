@@ -1,7 +1,7 @@
 # Worm Interactive Art
 A Interactive art made in JS with P5.js
 
-**Only works with in a desktop enviroment, in mobile results may vary**
+**Only works in a desktop enviroment, in mobile results may vary**
 
 ***
 ## Explanation
