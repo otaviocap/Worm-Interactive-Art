@@ -1,6 +1,8 @@
 # Worm Interactive Art
 A Interactive art made in JS with P5.js
 
+[You can try it, online right now](https://otaviocap.github.io/Worm-Interactive-Art/)
+
 **Only works in a desktop enviroment, in mobile results may vary**
 
 ***
